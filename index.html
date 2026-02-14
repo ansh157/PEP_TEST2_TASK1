@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sub-div1">
+            <form class="form-div">
+                <input type="text" id="content" placeholder="Message Content" required>
+                <input type="datetime-local" id="unlockAt" required>
+                <button type="submit">Create Message</button>
+            </form>
+        </div>
+            <div class="sub-div2">
+                <h2>Messages</h2>
+                <ul id="messageList"></ul>
+            </div>
+    </div>
+    <script src="frontend.js"></script>
+</body>
+</html>
